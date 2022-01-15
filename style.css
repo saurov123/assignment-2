@@ -206,11 +206,8 @@ footer { margin-top: 60px;
      .footer-details p { text-align: center;
     color: white;
     font-size: 13px;} 
-    .footer-details i {position: relative;
-        left: 630px;
-        padding-right: 8px;
-    color: white;}
-    
+    .f-icon {text-align: center; }
+    .f-icon i { color: white;}
 
 /*footer part end*/
 
@@ -218,17 +215,18 @@ footer { margin-top: 60px;
 
 /* mobile device*/
 
-@media only screen and  (max-width:580px) {
+@media only screen and  (max-width:540px) {
     .menu-part { width: 100%; 
         display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+overflow-x: hidden;}
 
     .menu-part-one { width: 100%;}
   
     .menu-part-two { width: 100%;}
     .menu-part-two nav { grid-template-columns: repeat(1,1fr);
     margin-left: -230px;}
-  
+  .collection {overflow-x: hidden;}
   .collection h2 { width: 100%;
 margin-top: 420px;}  
  .collection-part-one { width: 100%;}   
@@ -240,7 +238,7 @@ margin-left: 50px;}
 .theme-part {width: 100%;
 display: flex;
 flex-direction: column;
-}
+ overflow-x: hidden;}
 .theme-part-one { width: 100%;}
 .theme-part-two { width: 100%;}
 .theme-part-two img { margin-top: 70px; 
@@ -249,7 +247,8 @@ flex-direction: column;
   .new-device { width: 100%;
 display: flex;
 flex-direction: column;
-margin-top: 2990px;}
+margin-top: 2990px;
+overflow-x: hidden;}
   .devices-item { width: 100%;}
   .div-item-one {width: 100%;
        grid-template-columns: repeat(1.1fr); }
@@ -257,7 +256,8 @@ margin-top: 2990px;}
        }
   .devices-article {width: 100%;}     
   footer {width: 100%;
-margin-top: 450px;} 
+margin-top: 450px;
+overflow-x: hidden;} 
   .footer-details { width: 100%;}    
     
 }
@@ -265,7 +265,8 @@ margin-top: 450px;}
 
 /* tablet device*/
 @media only screen and  (min-width:580px) and (max-width:1000px)
-{  .menu-part { width: 100%; 
+{  body {overflow-x: hidden;} 
+    .menu-part { width: 100%; 
     display: flex;
 flex-direction: column;}
 
@@ -308,7 +309,7 @@ text-align: center;}
               
                   footer {width: 100%;
                     margin-top: 450px;} 
-                      .footer-details { width: 100%;}  
+                    
                      
-                      .fa-facebook {text-align: center;}
+                    
 }
