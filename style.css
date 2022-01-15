@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Luxurious+Roman&family=Oleo+Script&family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Luxurious+Roman&family=Oleo+Script&family=Poppins:ital,wght@0,500;0,700;1,300&display=swap');
+ 
+/*google font*/
+
+/*menu part start*/
+
+.menu-part { width: 100%;
+height: 170px ;
+display: flex;}
+
+.menu-part-one{width: 50%;
+height: 170px;}
+
+.menu-part-one h3 { font-family: 'Dongle', sans-serif;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Poppins', sans-serif;
+margin-top: 87px;
+margin-left: 100px;}
+
+.menu-part-two{width: 50%;
+height: 170px;
+display: flex;}
+
+.menu-part-two i { margin-top: 96px;
+padding-left: 8px;}
+
+.menu-part-two nav ul {display: flex;
+margin-top: 90px;
+margin-left: 250px;}
+
+.menu-part-two nav ul li i{ position: relative;
+margin-bottom: 12px;}
+
+.menu-part-two nav ul li { list-style-type: none;
+padding-right: 15px;
+font-family: 'Dongle', sans-serif;
+font-family: 'Luxurious Roman', cursive;
+font-family: 'Oleo Script', cursive;
+font-family: 'Poppins', sans-serif;}
+.menu-part-two ul a { text-decoration: none;
+color: #3A3A3A ;}
+
+.menu-part-two nav ul li a:hover { color:#2827CC; }
+
+/*menu part end*/
+
+/*theme part start*/
+
+.theme-part { width: 100%;
+height: 500px;
+margin-top: 100px;
+display: flex;}
+
+.theme-part-one {width: 50%;
+height: 400px;}
+.theme-part-one h1 { padding-left: 90px;
+color: #3A3A3A;
+font-weight: 800;
+font-size: 52px;}
+.theme-part-one h1 p 
+{ color: #3A3A3A;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Poppins', sans-serif;}
+.theme-part-one button {margin-left: 90px;
+height: 40px;
+width: 160px;
+border-radius: 9px;
+background-color: #2827CC;
+font-weight: 700;}
+button a {text-decoration: none;
+color: white;}
+button i {margin-left:5px;}
+
+.theme-part-two img { height: 450px;
+width: 400px;
+margin-left: 150px;
+border-radius: 10px;}
+
+/*theme part end*/
+
+/*collection part end*/
+
+
+.collection { width: 100%;
+height: 1590px;
+margin-top: 90px;}
+
+.collection h2 { font-family: 'Dongle', sans-serif;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Poppins', sans-serif;
+text-align: center;
+font-weight: 700;
+color: #03203C ;}
+
+.collection-part-one {display: grid;
+justify-content: center;
+margin-top: 40px;}
+.collection-part-two {display: grid;
+justify-content: center;
+margin-top: 30px;}
+.collection-part-three{display: grid;
+justify-content: center;
+margin-top: 30px;}
+
+.collection-items { display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-column-gap: 45px;}
+
+.item i {color: orange;}
+.item h3 {color:#03203C;
+font-size: 22px;}
+
+.fa-star.empty { color:#3A3A3A ;
+padding-right: 10px;}
+/*collection part end*/
+
+
+
