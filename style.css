@@ -70,7 +70,8 @@ font-size: 52px;}
 .theme-part-one button {margin-left: 90px;
 height: 40px;
 width: 160px;
-border-radius: 9px;
+border:1px solid #2827CC ;
+border-radius: 20px;
 background-color: #2827CC;
 font-weight: 700;}
 button a {text-decoration: none;
@@ -88,7 +89,7 @@ border-radius: 10px;}
 
 
 .collection { width: 100%;
-height: 1590px;
+height: 1650px;
 margin-top: 90px;}
 
 .collection h2 { font-family: 'Dongle', sans-serif;
@@ -113,13 +114,106 @@ margin-top: 30px;}
 grid-template-columns: repeat(3,1fr);
 grid-column-gap: 45px;}
 
-.item i {color: orange;}
+.item i {color: orange;
+font-size: 12px;}
 .item h3 {color:#03203C;
 font-size: 22px;}
 
 .fa-star.empty { color:#3A3A3A ;
 padding-right: 10px;}
+
+
+.see-more a { color:#2827CC;
+    font-weight: 900;
+    margin-left:1100px ;
+    margin-top: 40px;
+    text-decoration: none;}
+.see-more i { color:#2827CC;
+    font-size: 10px;
+    padding-left: 4px;}
+
 /*collection part end*/
 
+
+.new-device {margin-top: 100px;
+     width: 100%;
+height: 500px;
+display: flex;}
+ 
+.devices-item { width: 50%;
+height: 500px;
+display: grid;
+    justify-content: center;
+}
+
+.div-item-one {display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-column-gap: 15px; }
+.div-item-two {display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-column-gap: 15px; }
+
+
+.devices-item img { width: 200px;
+height: 200px;
+border: 2px solid black;}
+
+.devices-article { width: 50%;
+height: 500px;}  
+
+.devices-article h1 {font-weight: 800;
+    font-size: 30px; 
+text-align: justify;
+margin-top: 90px;
+font-family: 'Dongle', sans-serif;
+font-family: 'Luxurious Roman', cursive;
+font-family: 'Oleo Script', cursive;
+font-family: 'Poppins', sans-serif;}
+
+.devices-article p {
+    text-align: justify;
+margin-right: 170px;}
+
+.devices-article button {
+    height: 40px;
+    width: 160px;
+    border:1px solid #2827CC ;
+    border-radius: 20px;
+    background-color: #2827CC;
+    font-weight: 700;}
+    button a {text-decoration: none;
+    color: white;}
+    button i {margin-left:5px;}
+    
+
+
+/*up coming part end*/
+
+
+/*footer part start*/
+
+footer { margin-top: 60px;
+    width: 100%;
+    height: 200px;
+    background-color:#03203C;
+    padding-top: 20px;}
+    
+    .footer-details h4 { color: white;
+    text-align: center;
+    font-family: 'Dongle', sans-serif;
+        font-family: 'Luxurious Roman', cursive;
+        font-family: 'Oleo Script', cursive;
+        font-family: 'Poppins', sans-serif;}
+    
+     .footer-details p { text-align: center;
+    color: white;
+    font-size: 13px;} 
+    .footer-details i {position: relative;
+        left: 630px;
+        padding-right: 8px;
+    color: white;}
+    
+
+/*footer part end*/
 
 
